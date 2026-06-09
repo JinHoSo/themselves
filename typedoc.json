@@ -1,0 +1,5 @@
+{
+  "entryPoints": ["packages/core/src/index.ts"],
+  "out": "docs/api",
+  "readme": "README.md"
+}

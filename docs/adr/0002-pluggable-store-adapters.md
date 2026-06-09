@@ -22,4 +22,3 @@ The first real adapter should be SQLite. PostgreSQL should be added after the st
 - Adapter contract tests are mandatory.
 - Database capabilities must be represented explicitly.
 - Migrations are implemented per adapter while following the shared logical model.
-

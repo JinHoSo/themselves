@@ -31,11 +31,9 @@ await themselves.capture({
   confidence: 0.72,
   context: [
     { kind: "runtime", name: "OpenClaw" },
-    { kind: "provider", name: "openai-codex" }
+    { kind: "provider", name: "openai-codex" },
   ],
-  evidence: [
-    { kind: "conversation", uri: "telegram:message:2275" }
-  ]
+  evidence: [{ kind: "conversation", uri: "telegram:message:2275" }],
 });
 ```
 
@@ -118,4 +116,3 @@ interface AgentContext {
 ## API Design Constraint
 
 The public API must preserve provenance by default. Any method that creates, promotes, merges, or supersedes knowledge must require an actor and mutation reason either directly or through client configuration.
-

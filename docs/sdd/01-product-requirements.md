@@ -71,4 +71,3 @@ Two claims conflict. The system preserves both, marks a `contradicts` relation, 
 - Local-first personal knowledge before organizational promotion
 - Adapters over database lock-in
 - Agent-usable context as a first-class output
-

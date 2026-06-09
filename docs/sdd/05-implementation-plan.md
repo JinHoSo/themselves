@@ -2,7 +2,7 @@
 
 ## Milestone 0: SDD Baseline
 
-Status: in progress
+Status: complete
 
 Deliverables:
 
@@ -24,13 +24,15 @@ Acceptance criteria:
 
 ## Milestone 1: Repository Skeleton
 
+Status: in progress
+
 Deliverables:
 
 - TypeScript monorepo setup
 - Package manager selection
 - Lint, format, test configuration
 - `@themselves/core` package
-- Initial docs site or generated API docs decision
+- Generated API docs decision: use TypeDoc from public package entrypoints; defer a docs site until the CLI and SQLite adapter create enough user-facing workflow surface
 
 Acceptance criteria:
 

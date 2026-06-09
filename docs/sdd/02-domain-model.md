@@ -168,4 +168,3 @@ Every meaningful knowledge mutation must answer:
 ## Design Constraint
 
 Contradiction is not data corruption. Contradictory knowledge must be representable without deleting either side.
-

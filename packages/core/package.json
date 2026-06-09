@@ -1,0 +1,23 @@
+{
+  "name": "@themselves/core",
+  "version": "0.0.0",
+  "private": false,
+  "type": "module",
+  "description": "Core TypeScript package for the themselves AI-native ontology engine.",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "clean": "rm -rf dist *.tsbuildinfo",
+    "test": "vitest run",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  }
+}

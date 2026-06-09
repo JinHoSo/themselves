@@ -74,4 +74,3 @@ The project should be understandable by a serious external contributor within on
 - Clear package boundaries
 - Clear local setup
 - Clear first contribution path
-

@@ -149,4 +149,3 @@ PostgreSQL adapter should later use:
 ## Design Constraint
 
 Vector search is optional augmentation. It must never be the source of truth for ontology structure.
-

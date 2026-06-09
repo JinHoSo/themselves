@@ -22,4 +22,3 @@ The core model will represent typed knowledge records, typed relations, evidence
 - The API must expose capture, relation, query, versioning, and promotion workflows.
 - Full text and vector search can help retrieval, but they are not the source of truth.
 - The project can later expose UI surfaces, but the first product is a TypeScript library.
-

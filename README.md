@@ -35,4 +35,3 @@ Start here:
 ## Design Principle
 
 The database is not merely persistence. It is the substrate for an evolving ontology: concepts, claims, decisions, patterns, evidence, contexts, actors, and typed relations.
-
