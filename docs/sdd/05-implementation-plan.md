@@ -12,6 +12,7 @@ Deliverables:
 - API specification
 - Quality bar
 - Initial ADRs
+- Competitive baseline against OpenViking
 
 Acceptance criteria:
 
@@ -19,6 +20,7 @@ Acceptance criteria:
 - Core entities and relations are named
 - Storage adapter direction is clear
 - First implementation sequence is defined
+- OpenViking comparison baseline is documented
 
 ## Milestone 1: Repository Skeleton
 
@@ -35,6 +37,7 @@ Acceptance criteria:
 - `pnpm test` or equivalent works
 - Core package builds
 - Public exports are intentional
+- OpenViking stage-gate confirms the skeleton prioritizes ontology-specific package boundaries instead of generic context database breadth
 
 ## Milestone 2: Core Ontology Types
 
@@ -148,3 +151,6 @@ themselves/
 
 After SDD review, create the repository skeleton and implement Milestone 1.
 
+## Milestone Stage-Gate Rule
+
+After each major milestone, update or review [Competitive Baseline](07-competitive-baseline.md). The project must remain focused on outperforming OpenViking in typed ontology, provenance, contradiction handling, and promotion workflows rather than copying its generic context filesystem breadth.

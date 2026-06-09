@@ -43,6 +43,11 @@ Build an open source TypeScript library that helps individuals and organizations
    - Documentation expectations
    - Release criteria
 
+7. [Competitive Baseline](07-competitive-baseline.md)
+   - OpenViking comparison baseline
+   - Differentiation requirements
+   - Stage-gate checks for implementation milestones
+
 ## Architecture Summary
 
 ```text
@@ -68,3 +73,6 @@ OntologyStore adapter
 
 No implementation should be added unless it maps to an explicit SDD requirement, domain model element, API contract, or ADR.
 
+## Competitive Rule
+
+Major implementation milestones must include an OpenViking comparison check. `themselves` should not try to outbuild OpenViking as a general context database; it must exceed it in typed ontology modeling, provenance, contradiction handling, and personal-to-team knowledge promotion.
